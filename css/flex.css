@@ -1,0 +1,26 @@
+@import url(reset.css);
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 600px;
+  align-items: baseline;
+  /* flex-wrap: wrap-reverse; */
+}
+.flex div {
+  height: 150px;
+  width: 150px;
+  background: aqua;
+  /* height: auto; */
+  /* flex-basis: 300px; */
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.flex .one,
+.flex .three {
+  /* align-self: center; */
+  background: cornflowerblue;
+  flex-grow: 0;
+}
